@@ -1,0 +1,22 @@
+{
+	"system" : {
+		"platform" : "windows64",
+		"os_name" : "Windows 8",
+		"os_version" : "6.2"
+	},
+	"error" : {
+		"executable" : "quartus_hps",
+		"comment" : "not_applicable",
+		"error_message" : "m_hardware_started_up",
+		"source_file" : "/quartus/pgm/hps/hps_common.cpp",
+		"line" : "569",
+		"stack_trace" : "\t0x7ff7c65a58bd: quartus_hps + 0x258bd\n\t0x7ff7c65a8874: quartus_hps + 0x28874\n\t0x7ff7c65c631d: quartus_hps + 0x4631d\n\t0x7ffbcd4012bc: comp_qexe + 0x112bc (?qexe_apply_ini_vars@@YAXXZ + 0x217c)\n\t0x7ffbcd406112: comp_qexe + 0x16112 (?qexe_process_cmdline_arguments@@YA_NPEAVQEXE_CMDLINE@@HPEAPEBD@Z + 0x24c2)\n\t0x7ffbcd406de1: comp_qexe + 0x16de1 (?qexe_standard_main@@YAHPEAVQEXE_FRAMEWORK@@PEAPEBUQEXE_OPTION_DEFINITION@@HPEAPEBD@Z + 0xc1)\n\t0x7ff7c65c6b1c: quartus_hps + 0x46b1c\n\t0x7ffbd88c2938: CCL_MSG + 0x12938 (?msg_initialize_out_of_memory_handler@@YAXXZ + 0x348)\n\t0x7ffbd88c3f5e: CCL_MSG + 0x13f5e (?msg_set_stack_size@@YAXH@Z + 0x7e)\n\t0x7ffbd89c3e6e: ccl_mem + 0x3e6e (?mem_cfg_is_on@@YA_NPEBD_N@Z + 0x13e)\n\t0x7ffbd88c2021: CCL_MSG + 0x12021 (?msg_exe_main@@YAHHPEAPEBDP6AHH0@Z@Z + 0xa1)\n\t0x7ff7c65c77be: quartus_hps + 0x477be\n\t0x7ffbe80c6fd3: KERNEL32 + 0x16fd3 (BaseThreadInitThunk + 0x13)\n\t0x7ffbe94dcec0: ntdll + 0x4cec0 (RtlUserThreadStart + 0x20)\n",
+		"subsystem" : "HPS"
+	},
+	"quartus" : {
+		"quartus_bits" : "64",
+		"version" : "15.1.0",
+		"build" : "185",
+		"edition" : "Standard Edition"
+	}
+}
